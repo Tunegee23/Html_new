@@ -1,0 +1,60 @@
+<head>
+    <meta charset="UTF-8" />
+    <title>Drop Down in html</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+      body {
+        background: rgb(8, 8, 8);
+        background-size: cover;
+        font-family: Arial;
+        margin: 0;
+        height: 100vh;
+      }
+      ul {
+        padding: 0;
+        list-style: none;
+        float: left;
+        height: 300;
+      }
+      ul li {
+        float: left;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(238, 230, 121);
+        opacity: 0.9;
+        line-height: 40px;
+        text-align: left;
+        font-size: 15px;
+      }
+      ul li a {
+        text-decoration: none;
+        color: rgb(80, 20, 20);
+        display: grid;
+      }
+      ul li a :hover {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li class="active">
+        <a href="#">Home</a>
+      </li>
+      <li><a href="#">About</a></li>
+      <li>
+        <a href="#">Collection</a>
+        <ul>
+          <li><a href="#">sofa</a></li>
+          <li><a href="#">chair</a></li>
+          <li><a href="#"><table></table></a></li>
+          <li><a href="#">ktchen</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Email</a></li>
+      <li><a href="#">phone</a></li>
+      <li><a href="#">Homelocation</a></li>
+    </ul>
+  </body>
