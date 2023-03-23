@@ -1,39 +1,57 @@
 <head>
   <meta charset="UTF-8" />
-  <title>Drop Down in html</title>
+  <title>Home</title>
   <link rel="stylesheet" type="text/css" href="style.css" />
   <link rel="stylesheet" href="collection.html" />
-  <style type="text/css">
-    body {
-      background-image: ur;
-      background-size: cover;
-      font-family: Arial;
-      margin: 0;
-      height: 100vh;
-    }
-    ul {
+  <link rel="stylesheet" href="about.html" />
+  <style>
+    * {
       padding: 0;
-      list-style: none;
-      float: left;
-      height: 300;
+      margin: 0;
     }
+    body {
+      background-image: url(image/pexels-max-vakhtbovych-6588592.jpg);
+      background-size: contain;
+      height: 100vh;
+      font-family: Arial;
+      width: auto;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 250px;
+    }
+
     ul li {
-      float: right;
-      width: 250px;
-      height: 40px;
-      background-color: rgb(238, 230, 121);
+      float: left;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(117, 117, 116);
       opacity: 0.9;
-      line-height: 40px;
-      text-align: left;
+      line-height: 30px;
+      text-align: center;
       font-size: 15px;
     }
     ul li a {
       text-decoration: none;
-      color: rgb(80, 20, 20);
-      display: grid;
+      color: rgb(245, 241, 241);
+      display: inline-block;
     }
-    ul li a :hover {
-      color: red;
+    ul li a:hover {
+      color: rgb(24, 2, 2);
+      display: block;
+      height: 30px;
+    }
+
+    header {
+      font-size: 50px;
+      font-weight: bold;
+      text-align: center;
+      font-family: "Segoe UI";
+      margin-bottom: 20%;
+      color: rgb(245, 243, 243);
     }
   </style>
 </head>
@@ -42,22 +60,12 @@
     <li class="active">
       <a href="#">Home</a>
     </li>
-    <li><a href="#">About</a></li>
+    <li><a href="#">About_us</a></li>
     <li>
       <a href="collection.html">Collection</a>
-      <ul>
-        <li><a href="#">sofa</a></li>
-        <li><a href="#">chair</a></li>
-        <li>
-          <a href="#"><table></table></a>
-        </li>
-        <li><a href="#">ktchen</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">About</a></li>
-      </ul>
     </li>
-    <li><a href="#">Email</a></li>
-    <li><a href="#">phone</a></li>
-    <li><a href="#">Homelocation</a></li>
+    <li><a href="#">contant_us</a></li>
+    <li><a href="#">Service</a></li>
   </ul>
+  <header>WHYGOABROADFURNITURE</header>
 </body>

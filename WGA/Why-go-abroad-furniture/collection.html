@@ -1,60 +1,111 @@
 <head>
-    <meta charset="UTF-8" />
-    <title>Drop Down in html</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <style type="text/css">
-      body {
-        background: rgb(8, 8, 8);
-        background-size: cover;
-        font-family: Arial;
-        margin: 0;
-        height: 100vh;
-      }
-      ul {
-        padding: 0;
-        list-style: none;
-        float: left;
-        height: 300;
-      }
-      ul li {
-        float: left;
-        width: 100px;
-        height: 40px;
-        background-color: rgb(238, 230, 121);
-        opacity: 0.9;
-        line-height: 40px;
-        text-align: left;
-        font-size: 15px;
-      }
-      ul li a {
-        text-decoration: none;
-        color: rgb(80, 20, 20);
-        display: grid;
-      }
-      ul li a :hover {
-        color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <ul>
-      <li class="active">
-        <a href="#">Home</a>
-      </li>
-      <li><a href="#">About</a></li>
-      <li>
-        <a href="#">Collection</a>
-        <ul>
-          <li><a href="#">sofa</a></li>
-          <li><a href="#">chair</a></li>
-          <li><a href="#"><table></table></a></li>
-          <li><a href="#">ktchen</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </li>
-      <li><a href="#">Email</a></li>
-      <li><a href="#">phone</a></li>
-      <li><a href="#">Homelocation</a></li>
-    </ul>
-  </body>
+  <meta charset="UTF-8" />
+  <title>collection</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="home.html" />
+  <link rel="stylesheet" href="about.html" />
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url(image/pexels-vecislavas-popa-1571469.jpg);
+      background-size: cover;
+      font-family: Arial;
+      margin: 0;
+      height: 100vh;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      height: 20px;
+    }
+
+    ul li {
+      float: left;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(117, 117, 116);
+      opacity: 0.9;
+      line-height: 30px;
+      text-align: center;
+      font-size: 15px;
+    }
+    ul li a {
+      text-decoration: none;
+      color: rgb(245, 241, 241);
+      display: inline-block;
+    }
+    ul li a:hover {
+      color: rgb(24, 2, 2);
+      display: block;
+      height: 30px;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    ul li {
+      float: left;
+      width: 200px;
+      height: 30px;
+      background-color: rgb(128, 127, 126);
+      opacity: 0.9;
+      line-height: 30px;
+      text-align: center;
+      font-size: 15px;
+    }
+    ul li a {
+      text-decoration: none;
+      color: white;
+      text-align: center;
+      display: block;
+    }
+    ul li a:hover {
+      background-color: rgb(24, 2, 2);
+      display: block;
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li class="active">
+      <a href="home.html">Home</a>
+    </li>
+    <li><a href="about.html">About_us</a></li>
+    <li>
+      <a href="collection.html">Collection</a>
+    </li>
+    <li><a href="#">contant_us</a></li>
+    <li><a href="#">Service</a></li>
+  </ul>
+  <ul>
+    <li>
+      <a href="#">living room</a>
+      <ul>
+        <li><a href="#">sofa</a></li>
+        <li><a href="#">chair</a></li>
+        <li><a href="#">TV_shelve</a></li>
+      </ul>
+    </li>
+
+    <li><a href="#">kitchen</a></li>
+    <li>
+      <a href="#">Bedroom</a>
+      <ul>
+        <li><a href="#">wardrobe</a></li>
+        <li><a href="#">Drawer</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#">Office</a>
+      <ul>
+        <li><a href="#">Table</a></li>
+      </ul>
+    </li>
+  </ul>
+</body>
