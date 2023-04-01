@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="about.html" />
     <link rel="stylesheet" href="service.html" />
     <link rel="stylesheet" href="contact.html" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <style>
       * {
         padding: 0;
@@ -15,11 +19,14 @@
         box-sizing: border-box;
       }
       body {
-        background-image: url(image/pexels-max-vakhtbovych-6588592.jpg);
+        background: rgba(0, 0, 0, 0.404)
+          url(image/pexels-max-vakhtbovych-6588592.jpg);
         background-size: contain;
+        background-blend-mode: darken;
         height: 600px;
         font-family: Arial;
         min-width: 900px;
+        opacity: 0.9;
       }
       ul {
         list-style: none;
@@ -92,6 +99,9 @@
         background: rgb(68, 14, 14);
         cursor: pointer;
       }
+      button i {
+        color: rgb(253, 251, 251);
+      }
     </style>
   </head>
   <body>
@@ -108,9 +118,10 @@
     </ul>
     <header>WHYGOABROADFURNITURE</header>
     <form action="service.html" class="search-bar">
-      <form action="collection.html" class="search-bar">
       <input type="text" placeholder="search anything" name="q" />
-      <button type="sumbit"></button>
+      <button type="sumbit">
+        <i class="fa fa-search"></i>
+      </button>
     </form>
   </body>
 </html>
