@@ -1,0 +1,11 @@
+{
+  "name": "project",
+  "source": "WGA/index.html",
+  "scripts": {
+    "dev": "parcel WGA/index.html",
+    "build": "parcel build WGA/index.html --public-url ./"
+  },
+  "devDependencies": {
+    "parcel": "lastest"
+  }
+}
