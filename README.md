@@ -1,2 +1,2 @@
 # WGA_furniture
-Alx existing project
+WGA website
